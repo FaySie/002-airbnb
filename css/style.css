@@ -148,6 +148,89 @@ h5 {
     text-align: center;
 }
 
+.bird1,
+.bird2,
+.bird3,
+.bird4,
+.bird5,
+.bird6,
+.bird7,
+.bird8,
+.bird9,
+.bird10,
+.bird11,
+.bird12,
+.bird13,
+.bird14,
+.bird15,
+.bird16 {
+    height: 350px;
+    background-size: cover !important;
+}
+
+.bird1 {
+    background: url(../img/bird/bird1.jpg) center center no-repeat;
+}
+
+.bird2 {
+    background: url(../img/bird/bird2.jpg) center center no-repeat;
+}
+
+.bird3 {
+    background: url(../img/bird/bird3.jpg) center center no-repeat;
+}
+
+.bird4 {
+    background: url(../img/bird/bird4.jpg) center center no-repeat;
+}
+
+.bird5 {
+    background: url(../img/bird/bird5.jpg) center center no-repeat;
+}
+
+.bird6 {
+    background: url(../img/bird/bird6.jpg) center center no-repeat;
+}
+
+.bird7 {
+    background: url(../img/bird/bird7.jpg) center center no-repeat;
+}
+
+.bird8 {
+    background: url(../img/bird/bird8.jpg) center center no-repeat;
+}
+
+.bird9 {
+    background: url(../img/bird/bird9.jpg) center center no-repeat;
+}
+
+.bird10 {
+    background: url(../img/bird/bird10.jpg) center center no-repeat;
+}
+
+.bird11 {
+    background: url(../img/bird/bird11.jpg) center center no-repeat;
+}
+
+.bird12 {
+    background: url(../img/bird/bird12.jpg) center center no-repeat;
+}
+
+.bird13 {
+    background: url(../img/bird/bird13.jpg) center center no-repeat;
+}
+
+.bird14 {
+    background: url(../img/bird/bird14.jpg) center center no-repeat;
+}
+
+.bird15 {
+    background: url(../img/bird/bird15.jpg) center center no-repeat;
+}
+
+.bird16 {
+    background: url(../img/bird/bird16.jpg) center center no-repeat;
+}
 /*-----------------------------------------------
 *    footer
 -----------------------------------------------*/
