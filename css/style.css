@@ -66,7 +66,7 @@ h5 {
 
 .welcome {
     position: absolute;
-    top: 25vh;
+    top: 20vh;
     right: 0;
     left: 0;
     text-align: center;
@@ -87,7 +87,7 @@ h5 {
 
 .search {
     position: absolute;
-    bottom: 15vh;
+    bottom: 0;
     left: 0;
     right: 0;
     height: 105px;
