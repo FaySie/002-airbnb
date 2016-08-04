@@ -100,12 +100,13 @@ h5 {
     margin: 30px auto;
     border-radius: 2px;
     background-color: #fff;
-    width: 800px;
+    width: 825px;
 }
 
 .search-bar div {
     background-color: #fff;
     display: inline-block;
+    height: 24px;
 }
 
 .search-bar h5 {
@@ -121,6 +122,11 @@ h5 {
 .checkin,
 .checkout {
     width: 115px;
+}
+
+.from {
+    width: 24px;
+    background: url(../img/right.svg) no-repeat;
 }
 
 .cus {
