@@ -43,10 +43,10 @@ h5 {
 }
 
 .logo {
-    width: 136.75px;
-    height: 61px;
-    background: url(../img/logo.png) no-repeat;
-    background-size: 80%;
+    display: block;
+    width: 150px;
+    background: url(../img/mega.png) center center no-repeat;
+    background-size: contain;
 }
 
 #header a {
@@ -73,12 +73,20 @@ h5 {
     color: #fff;
 }
 
+.logob {
+    background: url(../img/logobb.png) no-repeat;
+    width: 300px;
+    height: 70px;
+    background-size: cover;
+    margin: 20px auto;
+}
+
 .welcome button {
     background-color: rgba(255, 255, 255, 0.5);
     border: 0;
     border-radius: 2px;
     padding: 2px 25px;
-    margin-top: 8px;
+    margin-top: 10px;
 }
 
 .welcome button:hover {
