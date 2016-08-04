@@ -1,18 +1,123 @@
 /*
 GENERAL
 */
+header {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
 
+.banner {
+    position: absolute;
+    height: 50vh;
+}
 
+.menu {
+    background-color: transparent;
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 16px;
+}
 /*-----------------------------------------------
 *    header
 -----------------------------------------------*/
+#header {
+    margin: 10px auto 0;
+    max-width: 100%;
+}
 
+.logo {
+    width: 136.75px;
+    height: 61px;
+    background: url(../img/logo.png) no-repeat;
+    background-size: 80%;
+}
+
+#header a {
+    color: #fff;
+}
+
+#header li:first-child a {
+    position: relative;
+    top: 8px;
+    border: 2px solid #fff;
+    padding: 5px 10px;
+}
+
+#header li a {
+    margin: 0 8px;
+}
+
+.welcome {
+    position: absolute;
+    top: 25vh;
+    right: 0;
+    left: 0;
+    text-align: center;
+    color: #fff;
+}
+
+.welcome button {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 0;
+    border-radius: 2px;
+    padding: 2px 25px;
+    margin-top: 8px;
+}
+
+.welcome button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.search {
+    position: absolute;
+    bottom: 15vh;
+    left: 0;
+    right: 0;
+    height: 105px;
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.search-bar div {
+    background-color: #fff;
+}
+
+.where {
+    width: 380px;
+}
+
+.checkin,
+.checkout {
+    width: 115px;
+}
+
+.cus {
+    width: 123px;
+}
 
 /*-----------------------------------------------
 *    main
 -----------------------------------------------*/
-
-
+.content1 {
+    text-align: center;
+}
 
 /*-----------------------------------------------
 *    footer

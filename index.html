@@ -5,15 +5,54 @@
         <title>旅遊住宿 | 短租房 | 渡假公寓 - Airbnb</title>
         <link href="css/bootstrap.css" rel="stylesheet"/>
         <link href="css/style.css" rel="stylesheet" charset="utf-8"/>
+        <link href="css/video.css" rel="stylesheet" charset="utf-8"/>
     </head>
     <body>
 <!---------------------------------------------------------------->
 <!--header
 <!---------------------------------------------------------------->
         <header>
-            <div class="navbar">
+            <div class="homepage-hero-module banner">
+                <div class="video-container">
+                    <div class="filter"></div>
+                    <video autoplay loop class="fillWidth">
+                        <source src="video/MP4/Pigeon-Impossible.mp4" type="video/mp4" />
+                        <source src="video/WEBM/Pigeon-Impossible.webm" type="video/webm" />
+                    </video>
+                    <div class="poster hidden">
+                        <img src="video/Snapshots/Pigeon-Impossible.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="navbar navbar-fixed-top menu">
                 <div class="container" id="header">
-                    <a href="#" class="navbar-brand"></a>
+                    <a href="#" class="navbar-brand logo"></a>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">成為傳教士</a></li>
+                        <li><a href="#">捐香油錢</a></li>
+                        <li><a href="#">註冊</a></li>
+                        <li><a href="#">登入</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="welcome">
+                <h1>SIMON ASIKA</h1>
+                <h4>向在超過191個國家中活躍的飛鳥大神致敬，成為飛鳥的信徒。</h4>
+                <button type="button" name="button"><h5>如何入教</h5></button>
+            </div>
+            <div class="search">
+                <div class="search-bar">
+                    <input type="text" name="where" value="" placeholder="想去哪裡?">
+                    <div class="checkin">
+
+                    </div>
+                    <div class="checkout">
+
+                    </div>
+                    <div class="cus">
+
+                    </div>
+                    <button type="button" name="button"><h5>搜索</h5></button>
                 </div>
             </div>
         </header>
@@ -21,7 +60,39 @@
 <!--main
 <!---------------------------------------------------------------->
         <main>
+            <div class="container">
+                <div class="content1">
+                    <h2>拜訪神袛指南</h2>
+                    <p>
+                        <h5>發掘數百個受飛鳥大神神光照耀的好景點</h5>
+                    </p>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4"></div>
+                    <button type="button" name="button"><h5>查看所有指南</h5></button>
+                </div>
+                <div class="content2">
+                    <h2>週末好去處</h2>
+                    <p>
+                        <h5>原來飛鳥離我們這麼近</h5>
+                    </p>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4"></div>
+                    <button type="button" name="button"><h5>查看所有目的地</h5></button>
+                </div>
+                <div class="content3">
+                    <h2>週末好去處</h2>
+                    <p>
+                        <h5>原來飛鳥離我們這麼近</h5>
+                    </p>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4"></div>
+                    <button type="button" name="button"><h5>查看所有目的地</h5></button>
+                </div>
 
+            </div>
         </main>
 <!---------------------------------------------------------------->
 <!--footer
@@ -31,5 +102,6 @@
         </footer>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="js/bootstrap.js"></script>
+        <script src="js/video.js"></script>
     </body>
 </html>
