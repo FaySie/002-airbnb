@@ -1,0 +1,172 @@
+/*
+GENERAL
+*/
+header {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    position: absolute;
+    height: 50vh;
+}
+
+.menu {
+    background-color: transparent;
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 16px;
+}
+/*-----------------------------------------------
+*    header
+-----------------------------------------------*/
+#header {
+    margin: 10px auto 0;
+    max-width: 100%;
+}
+
+.logo {
+    display: block;
+    width: 150px;
+    background: url(../img/mega.png) center center no-repeat;
+    background-size: contain;
+}
+
+#header a {
+    color: #fff;
+}
+
+#header li:first-child a {
+    position: relative;
+    top: 8px;
+    border: 2px solid #fff;
+    padding: 5px 10px;
+}
+
+#header li a {
+    margin: 0 8px;
+}
+
+.welcome {
+    position: absolute;
+    top: 15vh;
+    right: 0;
+    left: 0;
+    text-align: center;
+    color: #fff;
+}
+
+.logob {
+    background: url(../img/logobb.png) no-repeat;
+    width: 300px;
+    height: 70px;
+    background-size: cover;
+    margin: 20px auto;
+}
+
+.welcome button {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 0;
+    border-radius: 2px;
+    padding: 2px 25px;
+    margin-top: 10px;
+}
+
+.welcome button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.search {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 105px;
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.search-bar {
+    text-align: center;
+    margin: 30px auto;
+    border-radius: 2px;
+    background-color: #fff;
+    width: 825px;
+}
+
+.search-bar div {
+    background-color: #fff;
+    display: inline-block;
+    height: 24px;
+}
+
+.search-bar h5 {
+    color: #484848;
+}
+
+.where input {
+    width: 380px;
+    border: none;
+    padding: 0 10px;
+}
+
+.checkin,
+.checkout {
+    width: 115px;
+}
+
+.from {
+    width: 24px;
+    background: url(../img/right.svg) no-repeat;
+}
+
+.cus {
+    width: 123px;
+}
+
+/*-----------------------------------------------
+*    main
+-----------------------------------------------*/
+.content {
+    text-align: center;
+}
+
+.square {
+    width: 350px;
+}
+
+.rectangle {
+    width: 722px;
+}
+
+.square,
+.rectangle {
+    height: 350px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.img-title {
+    position: absolute;
+    vertical-align: middle;
+}
+/*-----------------------------------------------
+*    footer
+-----------------------------------------------*/
