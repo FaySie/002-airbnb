@@ -105,7 +105,7 @@ h5 {
 
 .search-bar {
     text-align: center;
-    margin: 30px auto;
+    margin: 25px auto;
     border-radius: 2px;
     background-color: #fff;
     width: 825px;
@@ -122,7 +122,8 @@ h5 {
 }
 
 .where input {
-    width: 380px;
+    width: 370px;
+    height: 35px;
     border: none;
     padding: 0 10px;
 }
@@ -130,20 +131,47 @@ h5 {
 .checkin,
 .checkout {
     width: 115px;
+    text-align: left;
 }
 
 .from {
     width: 24px;
     background: url(../img/right.svg) no-repeat;
+    text-align: left;
 }
 
 .cus {
     width: 123px;
 }
 
+.btn {
+    background-color: #ff5a5f;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.btn h5 {
+    color: #fff;
+    margin: 0 auto;
+}
 /*-----------------------------------------------
 *    main
 -----------------------------------------------*/
+main h2 {
+    margin-top: 50px;
+}
+
+main button {
+    width: 350px;
+    margin: 50px 10px 0 !important;
+    background-color: #fff;
+    border: 1px solid #aaa;
+}
+
+main button h5 {
+    font-weight: bold;
+}
+
 .content {
     text-align: center;
 }
@@ -174,6 +202,38 @@ h5 {
     right: 0;
     z-index: 1;
     margin: 0;
+    text-shadow: 2px 2px 1px #555;
+}
+
+.homepage {
+    height: 600px;
+    margin-top: 70px;
+    max-width: 100%;
+}
+
+.homepage1,
+.homepage2,
+.homepage3,
+.homepage4 {
+    background-size: contain;
+    width: 2000px;
+    height: 600px;
+}
+
+.homepage1 {
+    background: url(../img/homepage1.jpg) center center no-repeat;
+}
+
+.homepage2 {
+    background: url(../img/homepage2.jpg) center center no-repeat;
+}
+
+.homepage3 {
+    background: url(../img/homepage3.jpg) center center no-repeat;
+}
+
+.homepage4 {
+    background: url(../img/homepage4.jpg) center center no-repeat;
 }
 /*-----------------------------------------------
 *    footer
